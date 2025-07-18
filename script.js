@@ -3,7 +3,7 @@ const apiUrl = `https://api.openweathermap.org/data/2.5/weather?appid=${apiKey}&
 const searchBox = document.querySelector(".search-box")
 const searchBtn = document.querySelector(".search-btn")
 
-// document.querySelector(".weather").style.display = "none"
+document.querySelector(".weather").style.display = "none"
 
 
 async function getWeather(city) {
